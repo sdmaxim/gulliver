@@ -4,7 +4,7 @@ angular.
   module('slideShow')
   .component('slideShow', {
     templateUrl: 'slideshow/slideshow.html',
-    controller: ['$attrs', 'GetData', function ($attrs, GetData) {
+    controller: ['$routeParams', '$attrs', 'GetData', function ($routeParams, $attrs, GetData) {
         var self = this;
         self.data = []; //Список картинок и свойств
         var fullPath = ""; //Полный путь к файлу без ID
@@ -24,10 +24,8 @@ angular.
         self.bigMargineLeft = 0; //Отступ от левого края для больших картинок
         self.bigMargineTop = 0; //Отступ от левого края для больших картинок
         self.thumbStyle = {};
-        /*          style=" margin-left: {{$ctrl.bigMargineLeft}}px; 
-                  margin-top: {{$ctrl.bigMargineTop}}px">
-                  */
         self.bigStyle = {};
+        self.filename = $attrs.jsonName ? $attrs.jsonName : $routeParams.pageId;
 
         var setThumbStyle = function() {
           self.thumbStyle = {
@@ -40,8 +38,9 @@ angular.
           }
         };
         setThumbStyle();
-
-        GetData.get({filename: $attrs.jsonName}, function(images) {
+        
+        console.log(self.filename);
+        GetData.get({filename: self.filename}, function(images) {
           self.data = images.data;
           self.length = self.data.length;
           self.end = self.length-1;
