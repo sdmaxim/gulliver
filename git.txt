@@ -18,7 +18,7 @@ npm config set https-proxy http://"msidich:Otanon33##"cproxy.umc.com.ua:3128
 
 git-ftp
 # Setup
-git config git-ftp.url gulliver.kiev.ua/public_html
+git config git-ftp.url ftp://gulliver.kiev.ua/public_html
 git config git-ftp.user gulliver
 git config git-ftp.password vQ(67U{#g@hr
 
