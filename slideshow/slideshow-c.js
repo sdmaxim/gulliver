@@ -8,7 +8,7 @@ angular.
         var self = this;
         self.data = []; //Список картинок и свойств
         var fullPath = ""; //Полный путь к файлу без ID
-        var startFilmWidth = 1500; //начальная длина для начального рендеринга
+        var startFilmWidth = 1100; //начальная длина для начального рендеринга
         self.filmWidth = startFilmWidth; //Длина пленки
         self.length = 0; //Количество кадров в пленке
         self.start = 0; //Первый видимый кадр
@@ -38,8 +38,7 @@ angular.
           }
         };
         setThumbStyle();
-        
-        console.log(self.filename);
+
         GetData.get({filename: self.filename}, function(images) {
           self.data = images.data;
           self.length = self.data.length;
