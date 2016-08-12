@@ -1,0 +1,9 @@
+DirectoryIndex index.html
+
+<FilesMatch "\.(js|css)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+
+AddDefaultCharset UTF-8
+
+RewriteEngine On

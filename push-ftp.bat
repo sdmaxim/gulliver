@@ -1,0 +1,1 @@
+git ftp push --user gulliver --passwd vQ(67U{#g@hr ftp://gulliver.kiev.ua/public_html
