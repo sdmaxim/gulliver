@@ -16,7 +16,7 @@ angular.
         self.bigInd = 0; //Индек больших картинок
         self.showenFramesL = 0; //Длина видимых кадров
         var counter = 0; //Счетчик кадров
-        var showWindowW = 892; //Ширина окна показа ленты
+        var showWindowW = 645; //Ширина окна показа ленты
         var space = 5; //Расстояние между кадрами
         self.cursor = 0; //Направление движения
         self.delta = 0; //Текущая величина сдвига ленты
