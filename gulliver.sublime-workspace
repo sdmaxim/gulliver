@@ -95,14 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "sh.exe.stackdump",
-			"settings":
-			{
-				"buffer_size": 1265,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -165,10 +157,21 @@
 	},
 	"expanded_folders":
 	[
-		"/C/www/gulliver"
+		"/C/www/gulliver/middle",
+		"/C/www/gulliver/nav-menu",
+		"/C/www/gulliver/slideshow"
 	],
 	"file_history":
 	[
+		"/C/www/gulliver/index.html",
+		"/C/www/gulliver/slideshow/slideshow.html",
+		"/C/www/gulliver/slideshow/slideshow-c.js",
+		"/C/www/gulliver/nav-menu/top-menu.css",
+		"/C/www/gulliver/nav-menu/left-menu.css",
+		"/C/www/gulliver/nav-menu/middle-menu.css",
+		"/C/www/gulliver/data/stati/detskii_birthday.html",
+		"/C/www/gulliver/data/uslugi/rostovie-kukli.html",
+		"/C/www/gulliver/gulliver.sublime-project",
 		"/C/www/hitsale/html/main.css",
 		"/C/www/hitsale/html/slideshow/slideshow.html",
 		"/C/www/hitsale/html/slideshow/slideshow-c.js",
@@ -238,14 +241,8 @@
 		"/C/www/express/views/index.jade",
 		"/C/www/express/git-start.bat",
 		"/C/www/gulliver/main.css",
-		"/C/www/gulliver/nav-menu/middle-menu.css",
-		"/C/www/gulliver/index.html",
-		"/C/www/gulliver/nav-menu/left-menu.css",
-		"/C/www/gulliver/slideshow/slideshow-c.js",
-		"/C/www/gulliver/slideshow/slideshow.html",
 		"/C/www/gulliver/slideshow/slideshow.css",
 		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/www/gulliver/data/stati/detskii_birthday.html",
 		"/C/www/gulliver/push.bat",
 		"/C/www/gulliver/middle/config.js",
 		"/C/www/gulliver/pull.bat",
@@ -293,14 +290,11 @@
 		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
 		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
 		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/Gist/Default (Windows).sublime-keymap",
-		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
-		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/www/sublime/style.sass",
-		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/default/Preferences.sublime-settings"
+		"/C/Users/Max/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
@@ -425,113 +419,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "sh.exe.stackdump",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1265,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1265,
-								1265
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "91d1c7a8",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
